@@ -1,0 +1,14 @@
+[
+    {
+        "cpu": 100,
+        "essential": true,
+        "image": "nginx:1.13-alpine",
+        "memory": 128,
+        "name": "nginx",
+        "portMappings": [
+            {
+                "containerPort": 80
+            }
+        ]
+    }
+]
