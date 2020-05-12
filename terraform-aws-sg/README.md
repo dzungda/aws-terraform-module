@@ -123,7 +123,7 @@ Sometimes you need to have a way to create security group conditionally but Terr
 ```hcl
 # This security group will not be created
 module "vote_service_sg" {
-  source = "terraform-aws-modules/security-group/aws"
+  source = "https://github.com/dzungda/aws-terraform-module/tree/master/terraform-aws-sg"
 
   create = false
   # ... omitted
